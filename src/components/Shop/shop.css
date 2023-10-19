@@ -1,0 +1,17 @@
+.products-wrapper .prod-desc{
+    height: 3rem;
+    line-height: 1.5rem;
+    overflow: hidden;
+}
+
+.products-wrapper .prod-title{
+    height: 3rem;
+    line-height: 1.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.products-wrapper .prod-title:hover{
+    overflow: visible;
+}
