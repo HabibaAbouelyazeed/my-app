@@ -18,7 +18,7 @@ const NavBar = () => {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="ms-auto fw-bold">
+          <Nav className="ms-auto fw-bold d-flex align-items-center">
             <Link to="/" className="nav-link">
               Home
             </Link>
@@ -27,6 +27,12 @@ const NavBar = () => {
             </Link>
             <Link to="/counter" className="nav-link">
               Counter
+            </Link>
+            <Link to="/login" className="nav-link">
+              <div className="btn border border-success fw-bold">login</div>
+            </Link>
+            <Link to="/signup" className="nav-link">
+              <div className="btn btn-success">SignUp</div>
             </Link>
           </Nav>
         </Navbar.Collapse>
